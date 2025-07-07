@@ -44,33 +44,45 @@ By optimizing inference, teams can:
 - [ ] Define max input and output length per use case  
 - [ ] Set temperature and top_p for controlled creativity  
 - [ ] Use stop sequences to prevent over-generation  
-- [ ] Apply rate limiting to avoid cost spikes
+- [ ] Apply rate limiting to avoid cost spikes  
 
 ### ✅ Reduce Payload and Token Overhead
 
 - [ ] Remove unnecessary prompt text or repeated instructions  
 - [ ] Use compressed embeddings or pre-tokenized inputs when possible  
 - [ ] Avoid overly verbose response formatting in downstream tools  
-- [ ] Use streaming APIs where appropriate
+- [ ] Use streaming APIs where appropriate  
 
 ### ✅ Choose the Right Model Tier
 
 - [ ] Use smaller models (e.g., GPT-3.5, BGE, Claude Instant) for low-risk tasks  
 - [ ] Use high-capacity models (e.g., GPT-4, Claude Opus) for sensitive or strategic outputs  
-- [ ] Fine-tune smaller models for task-specific performance gains
+- [ ] Fine-tune smaller models for task-specific performance gains  
 
 ### ✅ Caching and Reuse
 
 - [ ] Cache outputs for repeated inputs (FAQs, onboarding flows)  
 - [ ] Use vector similarity search to avoid unnecessary inference calls  
-- [ ] Batch similar requests where latency is non-critical
+- [ ] Batch similar requests where latency is non-critical  
 
 ### ✅ Monitor for Drift, Hallucinations, and Failures
 
 - [ ] Set up alerts for latency spikes or incomplete responses  
 - [ ] Track response token lengths and cost trends over time  
 - [ ] Use human-in-the-loop validation for edge cases  
-- [ ] Apply filters or post-processors for formatting or safety corrections
+- [ ] Apply filters or post-processors for formatting or safety corrections  
+
+---
+
+## ❌ vs ✅ Examples
+
+| Use Case                           | ❌ Don’t Do This                                                                 | ✅ Do This Well                                                                   |
+|------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Prompt construction                | Prompt includes unnecessary background text and long role descriptions          | Strip to essentials; use context window only where needed                        |
+| Output structure                   | Accept raw prose and parse later                                                | Enforce output schema (JSON, Markdown, XML) with format instructions             |
+| Reuse of results                   | Re-run inference even for FAQs or templates                                     | Cache responses and retrieve when prompt is matched or similar                   |
+| Resource usage                     | Use GPT-4 for simple tagging or categorization                                  | Use distilled or task-specific model where LLM power isn’t required              |
+| Cost control                       | Allow unlimited prompt length in UI tools                                       | Set strict character/token caps for user inputs and explain why limits exist     |
 
 ---
 
@@ -102,4 +114,12 @@ By optimizing inference, teams can:
 - [Hugging Face Deployment Recipes](https://huggingface.co/docs/transformers/main/en/performance)  
 - [Prompt Framework Guide](./prompt-framework-guide.md)  
 - [Data Dictionary Guide](./data-dictionary.md)  
-- [Ethics & Bias Checklist](./ethics-and-bias-checklist.md)
+- [Ethics & Bias Checklist](./ethics-and-bias-checklist.md)  
+
+---
+
+## References
+
+- Google Vertex AI Optimization Docs  
+- OpenAI Rate Limiting Reference  
+- Anthropic Safe Deployment Guidelines
