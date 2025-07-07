@@ -10,19 +10,45 @@ last_updated: 2025-07-07
 
 ---
 
-## When to Use This Template
+## Overview
 
-This template is ideal for internal announcements such as:
-
-- Product launches  
-- Policy updates  
-- Leadership changes  
-- New initiatives or tools  
-- Scheduled maintenance or downtime
+This document provides a standardized format for internal announcement emails, ensuring clarity, actionability, and consistency across all departments.
 
 ---
 
-## Template Structure
+## Why It Matters
+
+Clear and concise email announcements help:
+- Reduce confusion around key updates
+- Ensure timely awareness across teams
+- Prompt required actions from relevant stakeholders
+- Maintain professional tone and internal brand voice
+
+---
+
+## Prerequisites
+
+Before using this template, ensure:
+- The announcement is finalized and approved by relevant teams
+- You have accurate dates, links, and contact information
+- The message aligns with internal communication policy
+
+---
+
+## Tasks
+
+### When to Use This Template
+
+Use this template for the following internal communications:
+- Product or feature launches
+- Policy updates or enforcement changes
+- Leadership transitions or hires
+- Organization-wide tools or process rollouts
+- Scheduled maintenance or planned outages
+
+---
+
+### Template Structure
 
 ```
 Subject: [Action-Oriented Summary] – [Optional Context or Team Name]
@@ -56,7 +82,7 @@ Thanks,
 
 ---
 
-## Example
+### Example Announcement
 
 ```
 Subject: New Expense Policy – Effective August 1
@@ -89,21 +115,21 @@ Operations Team
 
 ---
 
-## Tips for Effective Announcements
+## Tips
 
-- Keep it concise; aim for under 200 words.  
-- Use headers and bullets to increase scannability.  
-- Avoid jargon or acronyms unless widely understood.  
-- Always include a contact for follow-up questions.
+- Aim to keep the message under 200 words
+- Use bullet points to improve scannability
+- Avoid acronyms unless commonly known
+- Include one clear contact point for follow-up
 
 ---
 
-## Related Templates
+## Resources
 
-- [Communication Plan Template](../05-templates-and-toolkits/communication-plan-template.md)  
-- [Policy Update Notification](./policy-update-notification.md)  
+- [Communication Plan Template](../05-templates-and-toolkits/communication-plan-template.md)
+- [Policy Update Notification](./policy-update-notification.md)
 - [Internal Newsletter Guide](./internal-newsletter-guide.md)
 
 ---
 
-> 📘 This template follows Microsoft and Google style standards for internal communication. For reference, see: [Microsoft Writing Style Guide](https://learn.microsoft.com/style-guide/) | [Google Developer Style Guide](https://developers.google.com/style)
+> 📘 This template follows Microsoft and Google style standards for internal communication. Refer to the [Microsoft Writing Style Guide](https://learn.microsoft.com/style-guide/) and [Google Developer Style Guide](https://developers.google.com/style) for tone, structure, and formatting guidelines.
