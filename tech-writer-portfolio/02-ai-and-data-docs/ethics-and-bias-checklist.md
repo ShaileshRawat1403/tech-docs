@@ -43,31 +43,43 @@ Use this checklist across key phases of AI development:
 
 ### ✅ Data Collection & Labeling
 
-- [ ] Have we assessed datasets for representation gaps?
-- [ ] Are protected attributes (e.g., race, gender) handled explicitly or implicitly?
-- [ ] Are labels free from subjective or value-laden interpretations?
-- [ ] Is annotator bias documented and corrected for?
+- [ ] Have we assessed datasets for representation gaps?  
+- [ ] Are protected attributes (e.g., race, gender) handled explicitly or implicitly?  
+- [ ] Are labels free from subjective or value-laden interpretations?  
+- [ ] Is annotator bias documented and corrected for?  
 
 ### ✅ Model Design & Training
 
-- [ ] Has fairness been defined for this context (e.g., equal opportunity, demographic parity)?
-- [ ] Are baseline comparisons tested across demographic slices?
-- [ ] Are interpretable models preferred when impact is high?
-- [ ] Is adversarial testing used to probe bias and failure cases?
+- [ ] Has fairness been defined for this context (e.g., equal opportunity, demographic parity)?  
+- [ ] Are baseline comparisons tested across demographic slices?  
+- [ ] Are interpretable models preferred when impact is high?  
+- [ ] Is adversarial testing used to probe bias and failure cases?  
 
 ### ✅ Evaluation & Monitoring
 
-- [ ] Are outputs monitored over time for drift or harm?
-- [ ] Are false positives and false negatives distributed equally?
-- [ ] Have real users/stakeholders reviewed a pilot deployment?
-- [ ] Is an appeal or override mechanism in place?
+- [ ] Are outputs monitored over time for drift or harm?  
+- [ ] Are false positives and false negatives distributed equally?  
+- [ ] Have real users/stakeholders reviewed a pilot deployment?  
+- [ ] Is an appeal or override mechanism in place?  
 
 ### ✅ Communication & Deployment
 
-- [ ] Is there a plain-language explanation of how the model works?
-- [ ] Has potential impact or misuse been clearly documented?
-- [ ] Is model behavior disclosed in end-user content or UI?
-- [ ] Are incident response protocols documented and owned?
+- [ ] Is there a plain-language explanation of how the model works?  
+- [ ] Has potential impact or misuse been clearly documented?  
+- [ ] Is model behavior disclosed in end-user content or UI?  
+- [ ] Are incident response protocols documented and owned?  
+
+---
+
+## ❌ vs ✅ Examples
+
+| Case                                 | ❌ Poor Practice                                             | ✅ Good Practice                                                                 |
+|--------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Dataset curation                     | Using scraped data without demographic audits                | Actively reviewing for over/under-representation by age, race, or location      |
+| Model explainability                 | Using technical jargon in disclosures                        | Providing plain-language summaries (“How it works” tooltips in UI)              |
+| Feedback loop                        | Waiting for complaints after launch                          | Building in preview testing with impacted users and domain experts              |
+| Bias testing                         | Relying on accuracy scores alone                             | Segmenting performance by demographic and testing fairness across groups        |
+| Comms content                        | Publishing the model with vague blog copy                    | Including limitations, disclaimers, and point-of-contact for escalation         |
 
 ---
 
@@ -77,7 +89,7 @@ Use this checklist across key phases of AI development:
 - Document assumptions, tradeoffs, and known limitations  
 - Embed ethics review into existing sprint cycles or go/no-go checkpoints  
 - Encourage comms and policy teams to review outputs and copy tone for harm/impact  
-- Bias is not a single bug—it’s a systemic pattern. Address it iteratively.
+- Bias is not a single bug—it’s a systemic pattern. Address it iteratively.  
 
 ---
 
@@ -98,4 +110,12 @@ Use this checklist across key phases of AI development:
 - [AI Fairness Checklist – Partnership on AI](https://partnershiponai.org/work/fairness-checklist/)  
 - [Communication Metrics Dashboard](../01-internal-communications/communication-metrics-dashboard.md)  
 - [Prompt Framework Guide](./prompt-framework-guide.md)  
-- [Data Dictionary Guide](./data-dictionary.md)
+- [Data Dictionary Guide](./data-dictionary.md)  
+
+---
+
+## References
+
+- Microsoft Responsible AI Standard  
+- Google Model Cards Framework  
+- IEEE Ethically Aligned Design
