@@ -58,12 +58,40 @@ You can expand with columns like:
 
 ---
 
-### 2. Collect and Clean Definitions
+### 2. Collect and Categorize Definitions
 
-- Audit your tools and data exports  
-- Interview domain owners (HR, Finance, Product)  
-- Resolve duplications or overlapping names  
-- Document both human-readable and machine-ready descriptions  
+Use term categories to improve discoverability:
+
+#### HR Terms
+| Field            | Description                             |
+|------------------|------------------------------------------|
+| `employee_band`  | Role level (e.g., Junior, Mid, Senior)   |
+| `join_date`      | Employee’s first day at the company      |
+| `exit_reason`    | Code for employee attrition cause        |
+
+#### CX (Customer Experience)
+| Field            | Description                             |
+|------------------|------------------------------------------|
+| `nps_score`      | Net Promoter Score (0–10)                |
+| `ticket_status`  | Status of support request (Open/Closed)  |
+| `csat_rating`    | Customer satisfaction (1–5)              |
+
+#### Product Metrics
+| Field            | Description                             |
+|------------------|------------------------------------------|
+| `feature_usage`  | Count of specific feature interactions   |
+| `dropoff_point`  | Funnel step where user exited            |
+| `cohort_id`      | Grouping label for user behavior         |
+
+#### Prompt Engineering Terms
+| Field                | Description                                             |
+|----------------------|----------------------------------------------------------|
+| `instruction_format` | Prompt pattern used (e.g., “You are…”, “List 3 ways…”)   |
+| `context_window`     | Token span preserved before model cut-off                |
+| `output_style`       | Tone or voice specified (e.g., casual, structured, poetic) |
+| `embedding_type`     | Vector method used for semantic input (e.g., Ada, BERT)  |
+
+These definitions can be integrated into prompt frameworks to guide AI behavior more reliably.
 
 ---
 
@@ -103,4 +131,3 @@ Bonus: Integrate definitions with dashboards (e.g., hover-over in Looker/Tableau
 - [Communication Metrics Dashboard](../01-internal-communications/communication-metrics-dashboard.md)  
 - [Data Governance Playbook – Google Cloud](https://cloud.google.com/architecture/framework/data-governance)  
 - [Looker Dictionary Best Practices](https://cloud.google.com/looker/docs/field-definitions)
-
