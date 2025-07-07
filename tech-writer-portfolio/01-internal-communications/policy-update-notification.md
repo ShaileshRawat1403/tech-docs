@@ -6,48 +6,70 @@ last_updated: 2025-07-07
 
 # Policy Update Notification
 
-Use this template to announce new or updated internal policies. Clarity, relevance, and timely delivery are key to ensuring the update is understood and adopted by employees.
+Use this template to announce new or revised internal policies. Clear and timely communication ensures employees are informed, understand required actions, and feel included in organizational changes.
 
 ---
 
-## Purpose
+## Overview
 
-Policy updates often impact team operations, expectations, and compliance. This template helps ensure that employees:
-- Understand what is changing and why
-- Know when the policy takes effect
-- Have access to the full policy details
-- Know whom to contact with questions
+Policy updates often affect workflows, responsibilities, or compliance expectations. Communicating these changes effectively prevents confusion and supports adoption across teams.
 
 ---
 
-## Structure
+## Why It Matters
+
+Well-structured policy announcements:
+
+- Provide transparency into organizational decision-making  
+- Ensure timely compliance with legal, procedural, or operational updates  
+- Clarify expectations and support employees in navigating change  
+- Reduce back-and-forth questions by surfacing key information up front  
+
+---
+
+## Prerequisites
+
+Before sending the policy update:
+
+- Confirm policy version has been reviewed and approved by stakeholders (e.g., Legal, HR, IT)  
+- Update relevant links to documents, FAQs, and knowledge base articles  
+- Prepare any required acknowledgment workflows (e.g., HRIS prompts, LMS confirmations)
+
+---
+
+## Tasks
+
+### Policy Update Structure
+
+Use this consistent format when crafting your internal message:
 
 ```
 Subject: [Policy Update] [Short Policy Title]
 
-1. What’s Changing
-   A clear and simple summary of what’s new or revised.
+Hi [Team/All],
 
-2. Why This Matters
-   Explain the rationale behind the update (legal, procedural, operational, etc.).
+1. What’s Changing  
+A clear summary of the specific updates.
 
-3. When It Takes Effect
-   Include effective date, grace periods, or deadlines.
+2. Why This Matters  
+A brief explanation of the purpose or rationale behind the change.
 
-4. What You Need to Do
-   Highlight required actions, acknowledgments, or training (if any).
+3. When It Takes Effect  
+Effective date and any grace period for compliance.
 
-5. Resources
-   - Link to full policy document
-   - FAQs, training material, or help center
+4. What You Need to Do  
+Instructions, action items, or systems that require employee interaction.
 
-6. Contact
-   Whom to reach out to with questions or clarification.
+5. Resources  
+Links to the full policy, FAQs, or training modules.
+
+6. Contact  
+Who to reach out to for questions or clarifications.
 ```
 
 ---
 
-## Sample Announcement
+## Example
 
 ```
 Subject: [Policy Update] Remote Work Eligibility Guidelines – Effective Aug 1
@@ -56,24 +78,24 @@ Hi everyone,
 
 We’ve updated our Remote Work Eligibility Policy to reflect the growing flexibility needs across teams and locations. The key changes include:
 
-- Hybrid employees may now request up to 3 remote weeks per quarter
-- Approval flows have been centralized through the HRIS portal
-- Eligibility is now based on tenure and performance bands
+- Hybrid employees may now request up to 3 remote weeks per quarter  
+- Approval flows have been centralized through the HRIS portal  
+- Eligibility is now based on tenure and performance bands  
 
-Why this matters:
-We want to offer greater flexibility while ensuring alignment with our compliance, security, and team collaboration needs.
+Why this matters:  
+We want to offer greater flexibility while ensuring alignment with compliance, security, and team collaboration needs.
 
-Effective Date:
-This updated policy will go into effect starting August 1, 2025.
+Effective Date:  
+This updated policy takes effect on August 1, 2025.
 
-What you need to do:
-Please review the full policy and update your remote work preferences in the HRIS portal by July 25.
+What you need to do:  
+Please review the updated policy and submit your remote work preferences via the HRIS portal by July 25.
 
-Resources:
-- Full Policy [link]
-- Remote Work FAQ [link]
+Resources:  
+- Full Policy: [link]  
+- Remote Work FAQ: [link]
 
-Questions? Reach out to peopleops@company.com
+Questions? Reach out to peopleops@company.com.
 
 Thanks,  
 People Operations
@@ -81,24 +103,37 @@ People Operations
 
 ---
 
-## Writing Tips
+## Tips
 
-- Use clear subject lines and structured body formatting.
-- Be concise but thorough—avoid vague language.
-- Don’t bury important dates or action items.
-- Ensure tone is professional, not overly formal or robotic.
+| Best Practice                          | Avoid                         |
+|----------------------------------------|-------------------------------|
+| ✅ Highlight changes up front          | ❌ Burying key updates in text |
+| ✅ Link to full documents and FAQs     | ❌ Assuming users will search  |
+| ✅ Use dates and actions in bold       | ❌ Leaving instructions vague  |
+| ✅ Acknowledge the why behind changes  | ❌ Skipping rationale entirely |
 
 ---
 
-## Related Docs
+## Troubleshooting
 
-- [Leadership Update Template](leadership-update-template.md)
-- [Crisis Communication Plan](crisis-communication-plan.md)
+| Issue                                  | Solution                                      |
+|----------------------------------------|-----------------------------------------------|
+| Employees unclear on implications      | Add a short FAQ section or office hours slot  |
+| Incomplete acknowledgment              | Track compliance through HRIS or LMS tools    |
+| Resistance to change                   | Include rationale and benefits in messaging   |
+
+---
+
+## Related Documents
+
+- [Leadership Update Template](leadership-update-template.md)  
+- [Crisis Communication Plan](crisis-communication-plan.md)  
 - [Townhall Format Guide](townhall-format-guide.md)
 
 ---
 
 ## References
 
-- [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/)
+- [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/)  
 - [Google Developer Style Guide](https://developers.google.com/style)
+---
