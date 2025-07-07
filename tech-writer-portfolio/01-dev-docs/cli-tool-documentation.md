@@ -1,24 +1,184 @@
+---
+title: CLI Tool Documentation
+description: A comprehensive guide to installing, initializing, running diagnostics, and deploying using the CLI tool.
+last_updated: 2025-07-07
+---
+
 # CLI Tool Documentation
 
-## Overview
-This document explains how to use the command-line interface that accompanies the product. It summarizes available options, provides examples, and offers troubleshooting tips for common errors encountered by new users.
+> Learn how to install, configure, and use the CLI tool effectively across environments.
 
-## Audience
-The guide is for developers and system administrators who prefer working in a terminal or need to automate tasks through scripts. Basic knowledge of shell syntax and environment variables is assumed.
+---
 
-## Objective
-Help users become productive with the CLI by documenting essential commands and showing how they fit into development or deployment workflows. The instructions focus on cross-platform compatibility and standard conventions.
+## Quick Overview (TL;DR)
 
-## Usage Scenarios
-Reference this document when automating build processes, performing administrative tasks, or integrating the CLI into continuous integration pipelines. It is also helpful during local development when scripting repetitive tasks.
+```bash
+curl -sSL https://yourcli.dev/install.sh | bash
+yourcli init
+yourcli diagnose
+yourcli deploy --project your-project-name
+```
 
-## Best Practices
-Use clear naming for scripts and avoid embedding sensitive information in command lines. Favor environment variables or configuration files for secrets. Test scripts on a non-production environment before running them in automation pipelines.
+- Configuration file: `~/.yourcli/config.yaml`
+- Need help? Run: `yourcli --help`
 
-## Action Steps
-1. Install the CLI tool using the package manager for your platform.
-2. Run `command --help` to list global options and available subcommands.
-3. Configure authentication and environment variables as needed.
-4. Execute basic commands to create, read, update, and delete resources.
-5. Integrate the CLI with your build scripts or automated workflows.
-6. Review the troubleshooting section if you encounter permission errors or other issues.
+---
+
+## Install the CLI Tool
+
+Install the CLI globally using the following command:
+
+```bash
+curl -sSL https://yourcli.dev/install.sh | bash
+```
+
+You can verify installation:
+
+```bash
+yourcli --version
+```
+
+**Expected output:**
+
+```bash
+yourcli version 1.2.3
+```
+
+> 💡 Ensure the binary is added to your `$PATH`. Confirm with:
+
+```bash
+which yourcli
+```
+
+---
+
+## Initialize a Project
+
+To set up a new CLI workspace, run:
+
+```bash
+yourcli init
+```
+
+This generates the following structure:
+
+```
+your-project/
+├── .yourcli/
+│   └── config.yaml
+├── src/
+└── README.md
+```
+
+> 💡 Edit the `config.yaml` file to customize project-level settings.
+
+To open the config file quickly:
+
+```bash
+vim ~/.yourcli/config.yaml
+```
+
+---
+
+## Run Diagnostics
+
+To verify configuration and system readiness:
+
+```bash
+yourcli diagnose
+```
+
+**Expected output:**
+
+```bash
+✔ CLI installation: OK
+✔ Configuration file: Found
+✔ Environment: Compatible
+```
+
+> 💡 Use `--verbose` for a full log of the check:
+
+```bash
+yourcli diagnose --verbose
+```
+
+---
+
+## Deploy the Project
+
+To deploy your project to a remote environment:
+
+```bash
+yourcli deploy --project your-project-name --env production
+```
+
+**Expected output:**
+
+```bash
+✔ Connecting to server...
+✔ Validating build...
+✔ Deploying to production...
+✔ Deployment successful!
+```
+
+For testing:
+
+```bash
+yourcli deploy --dry-run
+```
+
+This simulates deployment without pushing changes.
+
+---
+
+## Update or Uninstall
+
+To update the CLI:
+
+```bash
+yourcli update
+```
+
+To uninstall:
+
+```bash
+rm -rf ~/.yourcli
+```
+
+And optionally:
+
+```bash
+rm /usr/local/bin/yourcli
+```
+
+---
+
+## Next Steps
+
+- [ ] View [API Reference](../04-api-documentation/rest-api-reference.md)
+- [ ] Customize the [Deployment Strategy](../03-production-optimizations/deployment-best-practices.md)
+- [ ] Learn about [CI/CD Integration](../06-ci-cd-examples/preview-deployment-workflow.md)
+
+---
+
+## Troubleshooting
+
+| Problem                        | Solution                                             |
+|-------------------------------|------------------------------------------------------|
+| `command not found: yourcli`  | Ensure CLI binary is added to `$PATH`.              |
+| Config file missing           | Run `yourcli init` or manually create config.yaml.  |
+| Permission denied             | Try `chmod +x` on the binary or use `sudo`.         |
+| Deployment failed             | Add `--verbose` to see error details.               |
+
+---
+
+## Resources
+
+- [Official CLI Docs](https://yourcli.dev/docs)
+- [Release Notes](../05-templates-and-toolkits/release-notes-template.md)
+- [Contributor Guide](../07-reference-guides/contributor-roles-and-permissions.md)
+
+---
+
+> This guide follows Microsoft and Google technical documentation standards.  
+> For style references, see: [Microsoft Style Guide](https://learn.microsoft.com/style-guide/) | [Google Developer Style Guide](https://developers.google.com/style)
