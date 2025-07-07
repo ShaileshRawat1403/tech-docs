@@ -10,85 +10,113 @@ This guide outlines the standard structure, roles, and prep steps for organizing
 
 ---
 
-## Purpose of a Townhall
+## Overview
 
-Internal townhalls serve to:
-
-- Share company updates and strategic direction  
-- Recognize milestones and celebrate wins  
-- Address employee questions or concerns  
-- Reinforce trust and two-way communication  
+Townhalls are live or recorded company-wide meetings designed to connect leadership with employees and share key updates. When planned well, they serve as a powerful vehicle for clarity, culture, and collaboration.
 
 ---
 
-## Recommended Agenda Structure
+## Why It Matters
 
-```
-Total Duration: 60 minutes  
-Participants: All-hands (live or recorded)
-Host: CEO, Business Unit Head, or Communications Lead
-```
+Effective townhalls:
 
-| Time     | Section                          | Notes                                           |
-|----------|----------------------------------|-------------------------------------------------|
-| 0–5 min  | Welcome + Agenda Overview        | Set tone, clarify purpose                       |
-| 5–15 min | Business Update                  | Performance, roadmap, team changes             |
-| 15–30 min| Spotlight Segments               | Demos, project milestones, guest speakers      |
-| 30–40 min| Employee Recognition             | Highlight teams, values in action              |
-| 40–50 min| Q&A                              | Use pre-collected and live questions           |
-| 50–60 min| Closing + Next Steps             | Reinforce action items, share follow-up plan   |
+- Improve understanding of company goals and progress  
+- Surface and address employee questions transparently  
+- Reinforce connection across teams and departments  
+- Create space for recognition and shared wins  
 
 ---
 
-## Roles & Responsibilities
+## Prerequisites
+
+Before planning a townhall:
+
+- Confirm the audience and format (in-person, hybrid, virtual)  
+- Align with leadership on timing, tone, and messaging  
+- Prepare and test required tools (slides, video platform, backup)  
+- Collect questions in advance, if needed  
+
+---
+
+## Tasks
+
+### Plan the Agenda
+
+| Time     | Section                          | Purpose                                          |
+|----------|----------------------------------|--------------------------------------------------|
+| 0–5 min  | Welcome + Agenda Overview        | Set tone and expectations                        |
+| 5–15 min | Business Update                  | Key metrics, roadmap, performance updates        |
+| 15–30 min| Spotlight Segments               | Milestones, new projects, guest speakers         |
+| 30–40 min| Employee Recognition             | Callouts, values in action, wins                 |
+| 40–50 min| Live or Pre-collected Q&A        | Leadership addresses real employee concerns      |
+| 50–60 min| Wrap-Up + Next Steps             | Summarize actions, highlight upcoming changes    |
+
+---
+
+### Assign Roles
 
 | Role              | Responsibilities                                          |
 |-------------------|-----------------------------------------------------------|
-| Organizer         | Plan agenda, manage logistics, send invites               |
-| Presenter(s)      | Prepare and deliver content sections                      |
-| Moderator         | Facilitate Q&A, ensure respectful interaction             |
-| Technical Support | Manage slides, video, recordings, backup plans           |
+| Organizer         | Set agenda, coordinate logistics, send invites            |
+| Presenter(s)      | Deliver assigned content sections                         |
+| Moderator         | Manage Q&A, curate respectful interactions                |
+| Tech Support      | Run the presentation deck, ensure recording, resolve issues|
 
 ---
 
-## Content Guidelines
+### Content Tips
 
-- Keep slides minimal—no more than 5 bullets per slide  
-- Use storytelling over data dumping  
-- Address current challenges openly  
-- Include visuals or short videos when possible  
-- Reinforce alignment with company values  
+- Use clear visuals over text-heavy slides  
+- Keep messages concise and audience-relevant  
+- Use storytelling to frame updates or challenges  
+- Align each section to company goals or values  
+- Avoid reading from slides—practice delivery  
 
 ---
 
-## Tools Checklist
+### Tool Checklist
 
-| Item                      | Notes                             |
-|---------------------------|------------------------------------|
-| Slide deck                | Shared 24 hours before if possible |
-| Q&A submission form       | Optional: anonymous or open        |
-| Backup internet/device    | Especially for remote sessions     |
-| Recording & transcription | Share within 48 hours post-event   |
+| Tool                      | Notes                                              |
+|---------------------------|----------------------------------------------------|
+| Presentation deck         | Prepare and share 24 hours in advance              |
+| Q&A form (e.g., Google)   | Optionally anonymous; collect before and during    |
+| Meeting platform (Zoom)   | Test audio/video/screen share                      |
+| Backup internet/device    | Always have a failover plan                        |
+| Recording & transcript    | Share within 48 hours for async attendees          |
+
+---
+
+## Tips
+
+- Use countdowns or intro music to open virtual sessions  
+- Send calendar invites early with agenda attached  
+- Ask for feedback post-event to improve next time  
+- Time box each section to avoid overruns  
+- Add live polls to maintain energy if virtual  
+
+---
+
+## Troubleshooting
+
+| Issue                         | Solution                                         |
+|------------------------------|--------------------------------------------------|
+| Low attendance                | Reinforce calendar invites and topic relevance  |
+| Tech failures                 | Have a backup device and support staff on call  |
+| No Q&A submissions            | Seed questions anonymously or ask live          |
+| Flat engagement               | Use interactive tools (polls, shout-outs)       |
 
 ---
 
 ## Post-Townhall Communication
 
-- Send a recap email with highlights and action points  
-- Include link to recording and any referenced resources  
-- Invite additional feedback via quick poll or form  
+- Send a follow-up email within 24–48 hours  
+- Include highlights, action items, and recording link  
+- Share next steps or reference materials  
+- Open feedback form for reactions or suggestions  
 
 ---
 
-## Optional Enhancements
-
-- Polls for live engagement  
-- Interactive whiteboards (e.g., Miro, FigJam)  
-- Breakout sessions for deeper discussion  
-
----
-
-## Related Files
+## Related Documents
 
 - [Internal Newsletter Guide](internal-newsletter-guide.md)  
 - [Leadership Update Template](leadership-update-template.md)  
