@@ -10,125 +10,141 @@ last_updated: 2025-07-07
 
 ---
 
-## Purpose
+## Overview
 
-This guide helps internal teams prepare for and respond to organizational crises—ranging from outages to leadership transitions. The focus is to minimize confusion, reduce misinformation, and maintain employee confidence.
-
----
-
-## When to Use
-
-Use this plan when any of the following occur:
-
-- System-wide outage or data breach
-- HR or leadership crisis
-- Emergency policy enforcement
-- Significant product failure or public incident
+This document outlines a crisis communication plan for internal teams to follow during major disruptions, including outages, HR incidents, or high-impact operational failures. It ensures a calm, structured, and factual approach to internal messaging.
 
 ---
 
-## Communication Objectives
+## Why It Matters
 
-- Provide factual, timely updates
-- Reinforce confidence through clarity
-- Align all stakeholders with one voice
-- Limit internal speculation or misinformation
-
----
-
-## Roles and Responsibilities
-
-| Role                   | Responsibility                                   |
-|------------------------|--------------------------------------------------|
-| **Crisis Lead**        | Owns internal messaging, coordinates updates     |
-| **HR/Legal Advisor**   | Ensures messaging complies with policies         |
-| **Team Managers**      | Cascade messages and gather feedback             |
-| **Support/IT Lead**    | Provides technical context for outages/incidents |
+Clear and timely internal communication during a crisis is essential for:
+- Reducing confusion and speculation
+- Maintaining employee trust and morale
+- Ensuring consistent messaging across departments
+- Supporting rapid resolution and accountability
 
 ---
 
-## Messaging Structure
+## Prerequisites
 
-Use this 4-part format for internal broadcasts:
+Before a crisis occurs:
+- Assign clear communication roles (Crisis Lead, HR, IT, etc.)
+- Establish communication channels (Slack, Email, Confluence)
+- Prepare message templates and escalation paths
+- Create a crisis-response Confluence hub or folder
+
+---
+
+## Tasks
+
+### Identify Triggers for Use
+
+Activate this plan when:
+- A system-wide outage or data breach occurs
+- Leadership changes unexpectedly
+- Emergency policy enforcement is needed
+- A public-facing incident affects internal teams
+
+---
+
+### Define Communication Objectives
+
+1. Provide factual, timely updates
+2. Reinforce confidence through clarity and consistency
+3. Limit misinformation and internal speculation
+4. Align stakeholders on next steps and responsibilities
+
+---
+
+### Assign Roles and Responsibilities
+
+| Role                   | Responsibility                                      |
+|------------------------|-----------------------------------------------------|
+| Crisis Lead            | Coordinates messaging, owns communication timeline |
+| HR/Legal Advisor       | Ensures compliance and tone alignment              |
+| Team Managers          | Cascade updates, answer questions                  |
+| Support/IT Lead        | Provide root cause, ETA, and technical context     |
+
+---
+
+### Use a Consistent Messaging Format
+
+#### Messaging Template:
 
 ```
-🛑 [Headline: Clear, short statement of the issue]
+[Short Headline: What’s the issue]
 
 **What Happened:**  
-A brief, fact-based summary of the incident.
+Fact-based description of the incident.
 
 **What We’re Doing:**  
-Steps taken immediately. Teams involved. Initial timeline.
+Actions taken, teams involved, initial resolution timeline.
 
 **What You Should Do:**  
-Any instructions, reassurance, or Q&A steps.
+Instructions or reassurances for employees.
 
 **What’s Next:**  
-Planned communications. ETA of resolution or next update.
+Expected time of next update or resolution status.
 ```
 
----
-
-## Sample Message
+#### Example:
 
 ```
 🛑 Outage: Internal Tools Unavailable
 
 **What Happened:**  
-This morning, our internal tools (HRMS, Timesheet) became inaccessible due to a network outage.
+Our HRMS and Timesheet tools are down due to a network issue.
 
 **What We’re Doing:**  
-The IT team is investigating root causes. Systems are expected to be restored within 2 hours.
+IT is working to restore access. ETA: 2 hours.
 
 **What You Should Do:**  
-Please refrain from logging work manually—we’ll provide guidance post-restoration.
+Do not log work manually. Updates will follow.
 
 **What’s Next:**  
-Next update at 12:00 PM. Questions? Ping #it-support or email helpdesk@company.com
+Next update at 12:00 PM. Contact: #it-support or helpdesk@company.com
 ```
 
 ---
 
-## Channels to Use
+### Choose the Right Communication Channels
 
-| Channel         | Use For                                           |
-|-----------------|---------------------------------------------------|
-| Slack / Teams   | Real-time updates, urgent notices                 |
-| Email           | Formal, organization-wide messaging               |
-| Confluence Page | Central hub for ongoing crisis documentation      |
-| Town Hall       | If verbal clarification or leadership presence is needed |
-
----
-
-## Tips for Effective Messaging
-
-✅ Do:
-- Use short paragraphs and bullet points  
-- Timestamp all updates  
-- Provide point-of-contact clearly  
-
-❌ Avoid:
-- Speculation or unconfirmed updates  
-- Technical jargon without explanation  
-- Overpromising resolution timelines  
+| Channel         | Purpose                                       |
+|-----------------|-----------------------------------------------|
+| Slack / Teams   | Fast updates and real-time coordination       |
+| Email           | Formal organization-wide communication        |
+| Confluence      | Crisis hub for storing updates and documents  |
+| Town Halls      | For live Q&A or leadership involvement         |
 
 ---
 
-## After the Crisis
+## Tips
 
-- Publish a post-mortem with learnings  
-- Invite anonymous feedback  
-- Archive communications in a central space  
-- Review response time and accuracy in a retrospective
+- Keep paragraphs short; use bullet points for clarity
+- Timestamp every update clearly
+- Assign a single POC per message or campaign
+- Update at regular intervals, even if there is no progress
+- Archive all messages post-crisis for compliance and learning
 
 ---
 
-## Related Templates
+## Troubleshooting
 
-- [Incident Escalation Process](../06-process-documentation/incident-escalation-process.md)  
-- [Stakeholder Engagement Guide](./stakeholder-engagement-guide.md)  
+| Problem                    | Solution                                               |
+|---------------------------|--------------------------------------------------------|
+| Mixed messages from teams | Use pre-assigned Crisis Lead to centralize updates     |
+| Info overload             | Stick to 4-part message format; avoid long paragraphs  |
+| Miscommunication persists | Reiterate updates via multiple channels                |
+
+---
+
+## Resources
+
+- [Incident Escalation Process](../06-process-documentation/incident-escalation-process.md)
+- [Stakeholder Engagement Guide](./stakeholder-engagement-guide.md)
 - [Leadership Update Template](./leadership-update-template.md)
 
 ---
 
-> 📘 This document follows enterprise communication guidelines from Microsoft and Google. See [Microsoft Style Guide](https://learn.microsoft.com/style-guide/) and [Google Developer Style Guide](https://developers.google.com/style) for formatting and tone standards.
+> 📘 This document aligns with Microsoft and Google documentation guidelines. For reference, see the [Microsoft Style Guide](https://learn.microsoft.com/style-guide/) and [Google Developer Style Guide](https://developers.google.com/style)
