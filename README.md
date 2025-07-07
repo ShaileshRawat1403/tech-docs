@@ -21,6 +21,7 @@ Each folder contains a `.gitkeep` file so the directories remain in version cont
 ## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Before participating, review our [Code of Conduct](CODE_OF_CONDUCT.md) and see the [support page](.github/SUPPORT.md) for how to get help or report issues.
 
 ## License
 
