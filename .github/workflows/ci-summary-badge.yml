@@ -1,0 +1,8 @@
+on: workflow_dispatch
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo "Generating CI summary badge"

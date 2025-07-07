@@ -1,0 +1,8 @@
+on: workflow_dispatch
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo "Validating links"
