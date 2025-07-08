@@ -6,7 +6,7 @@ status: Stable
 version: v1.0
 maintainer: People Operations Team / Shailesh Rawat
 last\_updated: 2025-07-07
-tags: \[internal-communications, surveys, employee-feedback]
+tags: [internal-communications, surveys, employee-feedback]
 ---
 
 # Internal Survey Guide: Planning, Distributing, and Analyzing Employee Feedback
