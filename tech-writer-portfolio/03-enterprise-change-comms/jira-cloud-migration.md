@@ -174,34 +174,28 @@ Use support channels:
 
 ### Dependencies
 
-The successful implementation of an org-wide policy change depends on coordination across multiple roles and systems:
-
-| Role/Team                | Responsibility                                                                 |
-|--------------------------|--------------------------------------------------------------------------------|
-| **Policy Owners**        | Drafting, legal validation, and final approval of the policy document          |
-| **IT & Infrastructure**  | Updating access controls, internal systems, and document distribution platforms |
-| **Internal Communications** | Crafting, scheduling, and sending communications across multiple channels    |
-| **Training & Development (L&D)** | Developing training content, walkthroughs, and onboarding modules     |
-| **HR & People Ops**      | Managing employee acknowledgments, system records, and escalations             |
-| **Team Leads / Managers**| Cascading the message within teams, addressing team-specific queries            |
-| **Legal & Compliance**   | Ensuring policy language meets regulatory and legal requirements               |
+| Team/Role              | Responsibility                                       |
+| ---------------------- | ---------------------------------------------------- |
+| **IT Infrastructure**  | Migration backend, data integrity, account sync      |
+| **Internal Comms**     | Email updates, Slack posts, status updates           |
+| **Training & L\&D**    | User guides, screencasts, walkthroughs               |
+| **Jira Admins**        | Post-migration validation, permission settings       |
+| **Integration Owners** | Confluence, GitHub, CI/CD pipelines reconfigurations |
 
 ---
 
 ### Impact Areas
 
-An org-wide policy change can affect the following core operational and engagement zones:
-
-| Area                      | Description                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| **Employee Behavior**     | Policies directly influence day-to-day actions, decisions, and accountability |
-| **Managerial Oversight**  | Managers must monitor compliance and help interpret the change contextually |
-| **System Permissions**    | Certain tools and access levels may need updating to comply with new policy |
-| **Knowledge Systems**     | Internal documentation platforms (e.g., Confluence, Notion) require updates |
-| **Productivity & Morale** | Poorly communicated policies can create anxiety or slow workflow adoption   |
+| Area                      | Description                                                         |
+| ------------------------- | ------------------------------------------------------------------- |
+| **Project Workflows**     | Agile, DevOps, HR, and Ops teams rely on uninterrupted Jira access  |
+| **Data Reporting**        | Dashboards and KPIs need to stay consistent for audits and insights |
+| **Cross-Team Tools**      | Systems integrated with Jira need re-authentication or validation   |
+| **Employee Productivity** | Access friction impacts developer and manager velocity              |
 
 ---
 
+this , please revise and give in the correct format
 ## Resources and References
 
 * [Communication Matrix Template](./communication-matrix-template.md)
