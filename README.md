@@ -1,158 +1,145 @@
-# Tech Docs Portfolio
+---
+title: Documentation Repository – Systems, Sentences, and Standards
+description: A modular, multi-domain documentation system designed for real-world clarity, internal knowledge transfer, and scalable communication workflows.
+---
 
-<details open><summary><strong>Overview</strong></summary>
+# Systems. Sentences. Standards.
 
-This repository is a curated portfolio of technical documentation authored by **Shailesh Rawat**. It includes real-world examples across various documentation types—developer onboarding, API integration, process workflows, AI/ML systems, communication plans, and CI/CD pipelines.
+This repository brings together a unified documentation system—spanning technical, operational, strategic, and AI-driven domains.
 
-Each document is modular, reusable, and written following enterprise-grade standards including the **Microsoft Writing Style Guide** and **Google Developer Documentation Guidelines**.
+It’s written for teams, built for readers, and maintained with the idea that documentation should scale as clearly as systems do.
 
-</details>
+---
 
-<details><summary><strong>Why It Matters</strong></summary>
+## What’s Inside
 
-Documentation is not just about describing features—it's about reducing friction, improving decision-making, and guiding people through complexity.
+Each directory is structured around a specific documentation category, with reusable components, consistent voice, and expandable templates.
 
-This portfolio demonstrates how great docs can:
-- Accelerate onboarding  
-- Improve team communication  
-- Prevent operational errors  
-- Scale knowledge in a distributed environment  
-- Support trust in fast-moving product ecosystems
+```
 
-</details>
+.
+├── 01-dev-docs/                  → Developer onboarding, SDKs, release notes
+├── 01-internal-communications/  → Feedback loops, email templates, stakeholder updates
+├── 02-ai-and-data-docs/         → Prompt frameworks, model evaluation, training workflows
+├── 02-operational-instructions/ → Escalation, audits, restoration, procedures
+├── 03-enterprise-change-comms/  → Policy rollout, cloud migration, readiness plans
+├── 03-production-optimizations/ → Monitoring, scaling, rollback, performance
+├── 04-api-documentation/        → API structure, filters, error conventions
+├── 04-strategy-and-governance/  → KPIs, roadmaps, governance models
+├── 05-knowledge-base-articles/  → Troubleshooting, role definitions, content policies
+├── 05-templates-and-toolkits/   → Meeting kits, charters, communication plans
+├── 06-ci-cd-examples/           → Spellcheck bots, rollback flows, PDF pipelines
+├── 06-process-documentation/    → Offboarding, code reviews, procurement steps
+├── 07-reference-guides/         → Metadata, acronyms, exception codes
+├── 08-style-guides/             → Writing principles, accessibility, formatting
+└── assets/                      → Diagrams, snippets, visuals
 
-<details><summary><strong>Audience and Scope</strong></summary>
+```
 
-This repository is for:  
-- **Hiring managers** evaluating writing capability and structure  
-- **Developers, designers, and PMs** reviewing documentation systems  
-- **Writers and content designers** seeking templates and frameworks  
-- **Career-switchers** entering the technical writing field  
+Each folder contains a local `README.md` to help you understand structure and purpose.
 
-Scope includes:
-- Developer enablement  
-- AI/ML model documentation  
-- Internal communication templates  
-- CI/CD and production operations  
-- Governance, compliance, and change documentation  
+---
 
-</details>
+## What This Is (And Isn’t)
 
-<details><summary><strong>Prerequisites</strong></summary>
+This isn’t just sample documentation. It’s a modular foundation that reflects how documentation works across domains—**technical, operational, strategic**—with clarity and structure.
 
-Before using or contributing to this documentation system, ensure the following:  
-- Familiarity with Markdown syntax  
-- Understanding of folder-based documentation systems  
-- Awareness of GitHub file naming conventions  
-- Reviewed [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
+You’ll find:
 
-</details>
+- Repeatable patterns for onboarding, systems, and communications
+- A writing style that’s professional without being robotic
+- Modular formats you can lift, remix, and extend into your own workflows
+- Sections designed for both reading *and* implementation
 
-<details><summary><strong>Instructions</strong></summary>
+It’s not theoretical—it’s grounded in how teams write, align, and ship.
 
-To get started:
+---
 
-1. Go to any folder under `tech-writer-portfolio/` (e.g., `04-api-documentation/`)  
-2. Open the folder-level `README.md` to understand what the section covers  
-3. Review the `.md` files inside—each one is a standalone document  
-4. Use templates in `05-templates-and-toolkits/` for creating new documents  
-5. Refer to `08-style-guides/` to ensure your writing aligns with our formatting and tone standards  
+## Tone & Approach
 
-Each document follows this structure:
-- Overview  
-- Why It Matters  
-- Audience and Scope  
-- Prerequisites  
-- Instructions  
-- Examples and Templates (❌ vs ✅ when needed)  
-- Tips and Best Practices  
-- Troubleshooting  
-- Dependencies and Impact Areas  
-- References and Resources  
-- Last Updated  
+This documentation favors:
 
-</details>
+- Clear sentence structures  
+- Modular content blocks  
+- Helpful front matter and clean navigation  
+- A voice that respects the reader’s time
 
-<details><summary><strong>Examples (Use Cases) and Templates</strong></summary>
+You’ll find familiar anchors—like Overview, Why It Matters, Tasks, Tips, Troubleshooting—alongside optional enhancements like checklists, templates, and mini-examples.
 
-Sample documents include:  
-- `developer-onboarding.md` — Developer provisioning steps  
-- `incident-response-playbook.md` — Production response workflows  
-- `sdk-integration-tutorial.md` — Auth and integration steps  
-- `training-data-preparation.md` — Structured AI data prep  
+The idea is to help you **use the docs, not just read them**.
 
-Templates (see `05-templates-and-toolkits/`):  
-- AI onboarding template  
-- Release notes template  
-- Risk assessment forms  
-- Meeting agendas  
-- Retrospective logs  
+---
 
-❌ **Bad Example:**  
-“Click the button. If it fails, try again.”
+## Who Might Find This Useful
 
-✅ **Good Example:**  
-“Click **Generate Token** in your dashboard. If the response is `401 Unauthorized`, verify that your token is valid and passed in the `Authorization` header as shown below.”
+- Technical writers structuring multi-domain content  
+- Developers maintaining tools, APIs, or processes  
+- Internal communications or change teams building clarity at scale  
+- AI practitioners documenting pipelines, prompts, and data  
+- Leaders and contributors looking to standardize communication artifacts
 
-</details>
+Whether you're onboarding someone, explaining a rollout, or publishing SDK references—this repo gives you a reliable baseline.
 
-<details><summary><strong>Tips and Best Practices</strong></summary>
+---
 
-- Use second-person, active voice  
-- Break long sections into lists or tables  
-- Provide context before commands or steps  
-- Keep tone consistent and professional  
-- Include examples with expected outcomes  
-- Link to related documents internally  
+## Why It Was Created
 
-Avoid:
-- Jargon without explanation  
-- Metaphors or casual phrasing  
-- Mixing tone styles  
-- Overly long paragraphs  
+Documentation often falls short—not because people can’t write, but because systems lack:
 
-</details>
+- A unified structure  
+- A consistent, readable voice  
+- Practical bridges between technical and non-technical use  
 
-<details><summary><strong>Troubleshooting</strong></summary>
+This repository closes that gap. It gives teams a reusable foundation to document systems and workflows that actually matter—without the noise, fluff, or jargon overload.
 
-| Issue                            | Resolution                                                             |
-|----------------------------------|------------------------------------------------------------------------|
-| Folder appears empty             | Look for `.gitkeep` placeholders — content is still in progress       |
-| Markdown not rendering properly  | Open files using GitHub preview or a Markdown-aware editor like VS Code |
-| Broken internal links            | Use correct relative paths and file name cases                        |
-| Visuals not displaying           | Check `assets/diagrams/` or `assets/visuals/` folders                 |
-| Style inconsistencies            | Refer to `08-style-guides/markdown-style-guide.md`                    |
+---
 
-</details>
+## How to Use It
 
-<details><summary><strong>Dependencies and Impact Areas</strong></summary>
+- Explore a directory based on your current use case.
+- Use or adapt `.md` files directly in your own repositories or internal wikis.
+- Refer to `/08-style-guides/` to align with formatting, tone, and consistency standards.
+- Link correctly: use only valid paths as per the repo structure—no broken anchors.
+- Publish via tools such as:
+  - [GitHub Pages](https://pages.github.com/)
+  - [MkDocs](https://www.mkdocs.org/)
+  - [Pandoc](https://pandoc.org/)
+  - [Docusaurus](https://docusaurus.io/)
+- If this resource helped you, consider ⭐ starring the repository or crediting it (MIT License applies).
 
-This documentation system supports:  
-- Developer onboarding and SDK integration  
-- AI/ML model training and evaluation workflows  
-- Communication plans and rollout coordination  
-- CI/CD documentation publishing  
-- Compliance, policy, and audit workflows  
+---
 
-Impact areas include Engineering, DevOps, Data Science, Product Operations, Content Design, and Strategy.
+## Writing Standards
 
-</details>
+We follow a hybrid of:
 
-<details><summary><strong>References and Resources</strong></summary>
+- [Google Developer Documentation Style Guide](https://developers.google.com/style)
+- [Microsoft Writing Style Guide](https://learn.microsoft.com/style-guide/)
+- [PlainLanguage.gov Guidelines](https://www.plainlanguage.gov/guidelines/)
 
-- Microsoft Writing Style Guide  
-- Google Developer Documentation Style Guide  
-- Diátaxis Documentation Framework  
-- GitHub Markdown Guide  
-- Markdoc Syntax Reference  
-- `08-style-guides/` — for brand tone, localization, formatting, and accessibility  
+Plus, a few of our own principles:
 
-</details>
+| Principle                      | Why It Matters                          |
+|-------------------------------|------------------------------------------|
+| Say exactly what you mean     | Readers don’t have time to guess         |
+| Build for reuse               | Docs should scale like code              |
+| Explain the why, not just how | Context builds trust and understanding   |
+| Use plain, human-first words  | Nobody wants to “leverage a paradigm”    |
 
-<details><summary><strong>Last Updated</strong></summary>
+---
 
-**Date:** July 7, 2025  
-**Maintainer:** Shailesh Rawat  
-**Status:** Core structure complete. Modular content population in progress.
+## Related Assets
 
-</details>
+- `/07-reference-guides/documentation-principles.md`
+- `/08-style-guides/writing-principles.md`
+- `/05-templates-and-toolkits/`
+- `/assets/diagrams/`  
+
+All internal links in this repo are carefully aligned with their directories—no dead anchors or misleading references.
+
+---
+
+## Last Updated
+
+`2025-07-08`  
+Maintained by: `@MyNameShaileshRawat` (PoeticMayhem) | Feedback and forks welcome.
