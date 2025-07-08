@@ -204,20 +204,31 @@ Keep sharing feedback here: [Form Link]
 
 ## Dependencies and Impact Areas
 
-A well-executed feedback collection process intersects with multiple teams and workflows across the organization. Understanding these dependencies ensures insights are not just collected—but routed, acted upon, and reported effectively.
+A robust feedback collection process for change initiatives relies on well-synchronized contributions from multiple teams and systems. Below is a breakdown of key dependency roles and where their support is essential for successful design, implementation, and closure.
 
-| Area / Function             | Role in the Feedback Process                                                                                 | Impact if Not Aligned                                                                                       |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| **Change Management Office (CMO)** | Designs the feedback strategy, sets objectives, and monitors progress throughout the initiative.                  | Disconnected feedback cycles, reduced ability to adapt the change plan in real time.                       |
-| **Project Management Office (PMO)** | Integrates feedback insights into delivery cadence, scope changes, and risk management.                          | Inability to pivot projects based on real-world friction or blockers.                                      |
-| **Internal Communications** | Promotes feedback channels, frames messaging around participation, and closes the loop on outcomes.         | Low visibility and response rates; perceptions of feedback being ignored.                                  |
-| **Human Resources / People Ops** | Analyzes feedback for cultural sentiment, psychological safety, and people risks during change.                 | Missed morale signals, HR blind spots in adoption or compliance.                                            |
-| **Training & Development**  | Uses feedback to update onboarding material, job aids, and knowledge transfer tools.                           | Irrelevant or outdated training materials; skills gaps persist.                                             |
-| **IT & Support Teams**      | Monitors help desk data, categorizes technical blockers, and supports continuous system usability improvement. | Technical issues go unflagged or unresolved; system adoption suffers.                                       |
-| **Team Leads & Middle Managers** | Cascade and contextualize feedback requests, provide team-level insights, and champion safe sharing.              | Localized blockers remain hidden; lack of upward visibility into team-level challenges.                     |
-| **Executive Sponsors / Leadership** | Use summarized insights to make strategic decisions, allocate resources, and publicly reinforce responsive action. | Missed opportunity to show accountability and responsiveness; employee trust declines.                      |
-| **Analytics / Reporting Team** | Consolidates qualitative and quantitative feedback into actionable dashboards and visual summaries.             | Feedback themes go unanalyzed or buried in raw data; leadership lacks clarity on patterns and urgency.     |
-| **Compliance / Legal (when applicable)** | Ensures data privacy standards for feedback collection and use (especially anonymous tools or sensitive data). | Risk of data misuse, employee distrust, or breaches in confidentiality.                                     |
+### Dependencies
+
+| Function / Team                  | Role in Feedback Collection Process                                                                                   |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| **Change Management Office (CMO)**      | Designs feedback strategy, defines timing and goals, routes outcomes into adoption/adaptation plans.                     |
+| **Internal Communications**      | Promotes feedback channels, encourages participation, and helps close the loop on outcomes.                              |
+| **PMO / Project Teams**          | Integrate feedback cycles into delivery timelines, post-milestone reviews, and sprint retrospectives.                    |
+| **Data & Analytics Team**        | Supports survey design, processes results, and creates dashboards to surface trends.                                     |
+| **Training & Enablement**        | Uses feedback to update learning paths, identify blockers, and validate training effectiveness.                          |
+| **IT / Help Desk / Tech Support**| Flags recurring technical issues from ticket trends and provides logs for root cause analysis.                           |
+| **HR / People Ops**              | Monitors cultural friction and morale indicators, especially for policy or structural changes.                           |
+| **Compliance & Legal**           | Ensures data privacy in anonymous surveys, secure handling of sensitive feedback, and regulatory compliance.             |
+
+### Impact Areas
+
+| Impact Zone                 | Description                                                                                         |
+|----------------------------|-----------------------------------------------------------------------------------------------------|
+| **Employee Experience**     | Employees feel heard, respected, and valued; improves trust and adoption of the change.              |
+| **Change Readiness Tracking**| Real-time data on whether adoption is on track or needs targeted interventions.                     |
+| **Leadership Visibility**   | Executives gain insight into how the change is landing on the ground.                               |
+| **Organizational Agility**  | Teams can make iterative improvements faster based on real data instead of assumptions.             |
+| **Resistance Management**   | Early surfacing of emotional, operational, or cultural resistance helps prevent change failure.     |
+| **Knowledge Base Updates**  | Documentation and help content can be refined based on what real users are struggling with.          |
 
 ---
 
