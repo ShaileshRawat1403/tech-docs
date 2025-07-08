@@ -6,7 +6,7 @@ status: Stable
 version: v1.0
 maintainer: Shailesh Rawat (PoeticMayhem)
 last\_updated: 2025-07-07
-tags: \[internal-communications, newsletter, employee-engagement, templates]
+tags: [internal-communications, newsletter, employee-engagement, templates]
 ---
 
 # Internal Newsletter Guide: Planning, Writing, and Distribution
