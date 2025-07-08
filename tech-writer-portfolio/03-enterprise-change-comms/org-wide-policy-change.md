@@ -1,6 +1,3 @@
-Here is the revised and fully aligned `org-wide-policy-change.md` file, with the **Dependencies and Impact Areas** section now fully consistent with previous finalized documents like the **Jira Cloud Migration** and **Executive Briefing** files.
-
-````markdown
 ---
 title: Org-Wide Policy Change
 description: A structured guide to communicate, implement, and monitor organizational policy changes with clarity and minimal disruption.
