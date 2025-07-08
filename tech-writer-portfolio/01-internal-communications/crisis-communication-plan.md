@@ -1,8 +1,13 @@
 ---
 title: Crisis Communication Plan
-description: A clear and practical internal response plan to manage organizational communication effectively during crises.
-tags: [internal communications, crisis response, incident management, messaging playbook, enterprise maturity]
+description: Structured internal messaging strategy for managing disruption and maintaining trust during organizational crises.
+status: Stable
+version: v1.0
+maintainer: Shailesh Rawat (PoeticMayhem)
+last_updated: 2025-07-08
+tags: [internal-communications, crisis-management, playbooks]
 ---
+
 
 # Crisis Communication Plan
 
