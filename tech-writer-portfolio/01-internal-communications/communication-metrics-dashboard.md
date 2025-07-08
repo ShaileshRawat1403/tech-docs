@@ -1,9 +1,11 @@
 ---
 title: Communication Metrics Dashboard
 description: A practical guide to designing and interpreting internal communication dashboards that track effectiveness and engagement.
-last_updated: 2025-07-07
-maintainer: Shailesh Rawat (PoeticMayhem)
 status: Stable
+version: v1.0
+maintainer: Shailesh Rawat (PoeticMayhem)
+last_updated: 2025-07-07
+tags: [internal-communications, dashboards, metrics]
 ---
 
 # Communication Metrics Dashboard
